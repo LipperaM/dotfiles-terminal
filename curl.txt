@@ -1,0 +1,16 @@
+# Comandos útiles de curl
+
+| Comando curl                                         | Explicación                                                   |
+|-----------------------------------------------------|---------------------------------------------------------------|
+| `curl https://example.com`                          | Muestra el contenido HTML de la URL en terminal               |
+| `curl -O https://example.com/file.zip`              | Descarga el archivo y lo guarda con su nombre original         |
+| `curl -o archivo.html https://url`                  | Descarga y guarda el contenido en un archivo específico        |
+| `curl -L https://short.url`                          | Sigue redirecciones (ejemplo: URLs acortadas)                  |
+| `curl -I https://example.com`                        | Muestra solo las cabeceras HTTP de la respuesta                |
+| `curl -X POST -d "clave=valor" https://api.com`     | Envía datos en método POST                                      |
+| `curl -H "Authorization: Bearer TOKEN" https://api.com` | Añade cabeceras HTTP personalizadas                             |
+| `curl -fsSL https://install.sh \| sh`               | Descarga y ejecuta un script silenciosamente                    |
+| `curl -s https://example.com`                        | Ejecuta en modo silencioso (sin barra de progreso)              |
+| `curl -v https://example.com`                        | Muestra información detallada de la conexión (verbose)         |
+| `curl --compressed https://example.com`             | Solicita contenido comprimido (gzip, deflate)                   |
+

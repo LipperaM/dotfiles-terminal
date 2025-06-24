@@ -1,0 +1,15 @@
+Acción                           | Atajo de teclado                                          |
+| ------------------------------ | --------------------------------------------------------- |
+| Nueva ventana/terminal (split) | `Ctrl+Shift+Enter`                                        |
+| Nueva pestaña                  | `Ctrl+Shift+t`                                            |
+| Cerrar pestaña                 | `Ctrl+Shift+w`                                            |
+| Moverte entre pestañas         | `Ctrl+Shift+→` / `←`                                      |
+| Moverte entre splits           | `Ctrl+Shift+[h/j/k/l]` *(vim-style)*                      |
+| Maximizar split actual         | `Ctrl+Shift+f`                                            |
+| Redimensionar split            | `Ctrl+Shift+Alt+→` / `←` / `↑` / `↓`                      |
+| Scroll (modo paginado)         | `Ctrl+Shift+PageUp/PageDown`                              |
+| Buscar en el buffer            | `Ctrl+Shift+f` *(igual que maximizar, cambia según modo)* |
+| Copiar                         | `Ctrl+Shift+c`                                            |
+| Pegar                          | `Ctrl+Shift+v`                                            |
+| Ver todos los atajos           | `kitty +kitten show_key`                                  |
+

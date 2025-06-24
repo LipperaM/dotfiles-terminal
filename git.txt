@@ -1,0 +1,21 @@
+# Comandos básicos de Git
+
+| Comando Git                         | Explicación                                                    |
+|-----------------------------------|----------------------------------------------------------------|
+| `git init`                        | Inicializa un nuevo repositorio Git en la carpeta actual       |
+| `git clone <url>`                 | Clona un repositorio remoto a tu máquina local                 |
+| `git status`                     | Muestra el estado actual del repositorio (archivos modificados, sin seguimiento, etc.) |
+| `git add <archivo>`              | Agrega uno o más archivos al área de preparación (stage)       |
+| `git add .`                      | Agrega todos los archivos modificados o nuevos al área de preparación |
+| `git commit -m "mensaje"`        | Guarda los cambios en el repositorio con un mensaje descriptivo |
+| `git push`                      | Envía los commits locales al repositorio remoto                |
+| `git pull`                      | Trae y fusiona los cambios del repositorio remoto al local     |
+| `git branch`                    | Lista las ramas del repositorio                                |
+| `git branch <nombre-rama>`      | Crea una nueva rama con el nombre especificado                 |
+| `git checkout <rama>`           | Cambia a la rama indicada                                      |
+| `git merge <rama>`              | Fusiona la rama indicada dentro de la rama actual              |
+| `git log`                      | Muestra el historial de commits                                |
+| `git diff`                     | Muestra las diferencias no confirmadas en archivos             |
+| `git remote -v`                | Muestra las URLs de los repositorios remotos configurados      |
+| `git reset <archivo>`           | Quita un archivo del área de preparación (stage)               |
+
